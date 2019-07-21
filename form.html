@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form method="POST">
+        First Name: <br>
+        <input type="text" name="firstName"><br>
+        Last Name: <br>
+        <input type="text" name="lastName">
+        <br><br>
+        <input type="radio" name="gender" value="male"> Male <br>
+        <input type="radio" name="gender" value="female"> Female <br>
+        <input type="radio" name="gender" value="other"> Other <br><br>
+        <input type="submit">
+    </form> -->
+
+    <form method="GET">
+        <fieldset>
+            <legend>Personal Information</legend>
+            First Name: <br>
+            <input type="text" name="firstName"> <br><br>
+            Last Name: <br>
+            <input type="text" name="lastName"> <br><br>
+            Email Address: <br>
+            <input type="text" name="email"> <br> <br>
+            Password: <br>
+            <input type="password" name="password"> <br><br>
+            <select name="cars" size="5" multiple>
+                <option value="BMW">BMW</option>
+                <option value="Corolla">Corolla</option>
+                <option value="Civic" selected>Civic</option>
+                <option value="Mehran">Mehran</option>
+                <option value="City">City</option>
+            </select> <br><br>
+            In which browser you want to run this Personal Information: <br>
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Google Chrome">Google Chrome</option>
+                <option value="Safari">Safari</option>
+                <option value="Mozilla Firefox">Mozilla Firefox</option>
+                <option value="Opera">Opera</option>
+                <option value="Internet Explorer">Internet Explorer</option>
+            </datalist> <br><br>
+            <textarea name="message" cols="30" rows="10"></textarea> <br><br>
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+</body>
+</html>
